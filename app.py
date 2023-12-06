@@ -4,7 +4,7 @@ import streamlit as st
 # UI Configurations & Modifications
 st.set_page_config(
     page_title="ChatGPT Clone",
-    page_icon="./assets/favicon.png",
+    page_icon="favicon.png",
 )
 st.title("ChatGPT :orange[Clone]")
 st.header("", divider="rainbow")
