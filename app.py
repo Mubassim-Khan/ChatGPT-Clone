@@ -1,7 +1,15 @@
 from openai import OpenAI, OpenAIError
 import streamlit as st
 
-st.title("ChatGPT-like clone")
+# UI Configurations & Modifications
+st.set_page_config(
+    page_title="ChatGPT Clone",
+    page_icon="favicon.png",
+)
+st.title("ChatGPT :orange[Clone]")
+st.header("", divider="rainbow")
+st.markdown("This clone of ChatGPT is made by fetching an API Key from OpenAI.")
+st.markdown("ChatGPT can make mistakes. Consider checking important information.")
 
 # Error handling for OpenAI API key authentication
 try:
